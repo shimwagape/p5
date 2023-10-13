@@ -17,13 +17,13 @@ Python: The project is primarily developed in Python, the language of choice for
 Web Framework : We've used a stramlit web framework to create an intuitive and interactive user interface.
 HuggingFace Model Hub: For model deployment and sharing, we've harnessed the HuggingFace platform, ensuring easy access for users.
 ## Installation
-### Clone this repository:
-git clone link
-cd sentiment-analysis-app
-### Install the required Python libraries:
-pip install -r requirements.txt
-Set up any environment variables, configurations, or database connections, if applicable.
-### Run the application:
+### Clone this repository: 
+### git clone link
+### cd sentiment-analysis-app
+## Install the required Python libraries:
+### pip install -r requirements.txt
+### Set up any environment variables, configurations, or database connections, if applicable.
+## Run the application:
 python app.py
 
 
