@@ -3,7 +3,7 @@ from transformers import AutoTokenizer, AutoConfig, AutoModelForSequenceClassifi
 from scipy.special import softmax
 
 # Load your model and tokenizer
-model_path = "Enyonam/distilbert-base-uncased-Distilbert-Model"
+model_path = "shimwa/distilbert-base-uncased-Distilbert-Model"
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 config = AutoConfig.from_pretrained(model_path)
 model = AutoModelForSequenceClassification.from_pretrained(model_path)
